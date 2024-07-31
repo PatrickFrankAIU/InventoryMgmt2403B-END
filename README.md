@@ -4,4 +4,5 @@
 Inventory Management Project, ITWEB 220, 2403B Term. 
 
 This page is hosted on GitHub Pages:
-**https://patrickfrankaiu.github.io/InventoryMgmt2403B/**
+https://patrickfrankaiu.github.io/InventoryMgmt2403B-END/
+
