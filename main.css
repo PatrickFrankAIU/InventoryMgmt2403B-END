@@ -1,0 +1,97 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* H1 Styling */
+h1 {
+    color: #444;
+    text-align: center;
+}
+
+/* H2 Styling */
+h2 {
+    color: #666;
+    margin-top: 40px;
+}
+
+/* Div containers for form elements */
+div {
+    background: #fff;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Styling for all input fields and selects */
+input[type="text"], input[type="number"], select {
+    width: calc(100% - 22px); /* Adjusted width for full width on mobile */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding does not affect overall width */
+}
+
+/* Button Styling */
+button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #449d44;
+}
+
+/* Inventory Display */
+#inventoryDisplay {
+    background-color: #fefefe;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Product Quantity Style */
+#inventoryDisplay div {
+    margin: 5px 0;
+}
+
+/* Strong tag styling within inventoryDisplay for Categories */
+#inventoryDisplay strong {
+    color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    /* Adjusts the layout for smaller screens */
+    input[type="text"], input[type="number"], select, button {
+        width: 100%; /* Makes input fields and buttons take full width */
+        margin: 10px 0; /* Adds space between form elements */
+    }
+}
+
+@media (max-width: 480px) {
+    h1, h2 {
+        font-size: 18px;
+    }
+
+    div {
+        padding: 15px;
+    }
+}
